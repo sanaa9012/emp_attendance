@@ -9,7 +9,7 @@
 <body>  
   <div class="container">          
    <div class="table-responsive">  
-    <h3 align="center">QR Generation Form</h3><br/>
+    <h3 align: "center">QR Generation Form</h3><br/>
     <div class="box">
      <form method="post" action="qrcode.php" > 
       <div class="form-group">
