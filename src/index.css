@@ -14,17 +14,20 @@ header{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;
+    padding-top: 15px;
    display: flex;
    justify-content: space-between;
-   }
+
+    
+}
 
 .what {
     margin-left: 70px;
     
 }
 .navigation{
-    margin-left: 600px;
-    padding-top: 30px;
+    margin-left: 550px;
+    padding-top: 20px;
 }
 .navigation a{
     position: relative;
@@ -49,7 +52,7 @@ header{
     transform: scaleX(0);   
     transition: transform .5s;
     border: 1px solid rgb(17, 23, 26);
-    margin: -1px 0px 0px -2px;
+    /* margin: -1px 0px 0px -2px; */
 }
 
 .navigation a:hover::after{
